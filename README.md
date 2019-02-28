@@ -55,6 +55,9 @@ _A list of my commonly used Git commands_
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git stash` | Discard all local changes, but save them for possible re-use later |
+| `git checkout -- <file>` | Discarding local changes (permanently) to a file |
+| `git reset --hard` | Discard all local changes to all files permanently |
 
 ### Inspection & Comparison
 
